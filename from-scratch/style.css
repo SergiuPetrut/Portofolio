@@ -64,6 +64,9 @@ nav .hamb span{
     height: 3px;
     transition: .3s;
     transition-property: transform, opacity;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
 }
 nav .hamb span:nth-child(2){
 
